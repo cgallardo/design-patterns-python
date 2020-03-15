@@ -4,7 +4,7 @@ import abc
 class AmericanPlug(metaclass=abc.ABCMeta):
     @abc.abstractmethod
     def plug(self):
-        print("Plugging european plug")
+        pass
 
 
 class EuropeanPlug:
